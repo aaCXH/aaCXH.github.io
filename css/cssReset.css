@@ -1,0 +1,79 @@
+
+
+html {
+	color:#000;
+	background:#fff;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+pre,
+form,
+fieldset,
+input,
+textarea, 
+p,
+blockquote,
+th,
+td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:  collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+em,
+strong,
+b,
+u,
+i {
+	font-style: normal;
+	font-weight: normal;
+}
+ol,
+ul {
+	list-style: none;
+}
+h1,
+h2,
+h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+input,
+textarea,
+select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	*font-size: 100%;  /*to enable resizing for IE */
+}
+img {
+	border: 0 none;
+}
+/*input {
+	border: none;
+}
+*/
+/*select {
+	border-top: none;
+	border-bottom: none;
+}
+*/
+/*以上所有的代码是为了给所有的标签重置，以便于我们
+后续的开发和管理，为了不同的浏览器对每种的标签都
+有默认的样式。大部分的浏览器的默认样式还有点区别，
+所以为了保证让所有的标签的默认样式清零，一般会在
+网站的一开始对所有的标签做一下样式的重置操作。*/  
